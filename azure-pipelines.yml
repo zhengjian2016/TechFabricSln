@@ -15,10 +15,7 @@ steps:
     version: '3.0.x' 
     includePreviewVersions: true 
 
-- task: NuGetToolInstaller@1 
-  inputs: 
-    versionSpec: '^5.1.0' 
-    checkLatest: true 
+- task: NuGetToolInstaller@1
 
 - task: NuGetCommand@2 
   inputs: 
