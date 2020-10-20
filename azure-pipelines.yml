@@ -24,7 +24,7 @@ steps:
   inputs: 
     command: 'restore' 
     restoreSolution: '**/*Test/*.csproj' 
-    feedsToUse: 'select' 
+    feedsToUse: 'config' 
     noCache: true 
 
 - task: DotNetCoreCLI@2 
